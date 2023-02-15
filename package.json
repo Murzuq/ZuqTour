@@ -1,0 +1,22 @@
+{
+  "name": "zuqtour",
+  "version": "1.0.0",
+  "description": "Tour Webpage with scss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Murzuq/ZuqTour.git"
+  },
+  "author": "Alabi Murzuq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Murzuq/ZuqTour/issues"
+  },
+  "homepage": "https://github.com/Murzuq/ZuqTour#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
