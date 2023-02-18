@@ -10,4 +10,47 @@ html {
 
 body {
   box-sizing: border-box;
-  background-color: orangered; }
+  padding: 3rem;
+  font-family: 'Quicksand', sans-serif; }
+
+.btn, .btn:link, .btn:visited {
+  font-size: 1.6rem;
+  color: #777;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  background-color: #fff; }
+
+.header {
+  position: relative;
+  height: 95vh;
+  background-image: linear-gradient(to right bottom, rgba(255, 89, 0, 0.8), rgba(199, 70, 0, 0.8)), url(../img/header-bg.jpg);
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
+  .header__logo {
+    position: absolute;
+    top: 2rem;
+    left: 2rem; }
+    .header__logo img {
+      height: 5rem; }
+  .header__text-box {
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+  .header__text {
+    color: #fff;
+    margin-bottom: 8rem; }
+    .header__text--main {
+      font-size: 6rem;
+      letter-spacing: 3.9rem;
+      display: block;
+      margin-bottom: 2rem; }
+    .header__text--sub {
+      font-size: 2rem;
+      letter-spacing: 0.5rem;
+      display: block; }
