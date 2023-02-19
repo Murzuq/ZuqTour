@@ -85,8 +85,32 @@ body {
       font-size: 6rem;
       letter-spacing: 3.9rem;
       display: block;
-      margin-bottom: 2rem; }
+      margin-bottom: 2rem;
+      animation: moveInLeft 1s ease-out backwards; }
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem); }
+  80% {
+    opacity: 1;
+    transform: translateX(1rem); }
+  100% {
+    opacity: 1;
+    transform: translateX(0rem); } }
     .header__text--sub {
       font-size: 2rem;
       letter-spacing: 0.5rem;
-      display: block; }
+      display: block;
+      animation: moveInRight 1s ease-out backwards; }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem); }
+  80% {
+    opacity: 1;
+    transform: translateX(-1rem); }
+  100% {
+    opacity: 1;
+    transform: translateX(0rem); } }
