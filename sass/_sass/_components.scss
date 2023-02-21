@@ -32,6 +32,16 @@
     }
   }
 
+  &--primary {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &::after {
+      background-color: inherit;
+      color: inherit;
+    }
+  }
+
   &::after {
     content: '';
     width: 100%;
@@ -76,7 +86,7 @@
 }
 
 .row {
-  width: 114rem;
+  max-width: 114rem;
   margin: 0 auto;
 
   &::after {
@@ -95,6 +105,10 @@
 
   .col-1-of-2 {
     width: calc((100% - 6rem) / 2);
+  }
+
+  .col-1-of-3 {
+    width: calc((100% - (6rem * 2)) / 3);
   }
 
   .col-1-of-4 {
