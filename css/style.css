@@ -504,7 +504,8 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 9999;
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden;
+  transition: all 0.3s; }
   .popup__content {
     position: absolute;
     top: 50%;
@@ -516,7 +517,8 @@ body {
     border-radius: 3px;
     display: table;
     overflow: hidden;
-    opacity: 0; }
+    opacity: 0;
+    transition: all 0.5s 0.2s; }
   .popup__left {
     width: 33.3333%;
     display: table-cell; }
@@ -555,7 +557,8 @@ body {
     font-size: 3rem;
     text-decoration: none;
     display: inline-block;
-    line-height: 1; }
+    line-height: 1;
+    transition: all 0.2s; }
   .popup__close:hover {
     color: #cc642c; }
 

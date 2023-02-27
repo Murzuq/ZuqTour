@@ -579,6 +579,7 @@
   z-index: 9999;
   opacity: 0;
   visibility: hidden;
+  transition: all 0.3s;
 
   &__content {
     position: absolute;
@@ -592,6 +593,7 @@
     display: table;
     overflow: hidden;
     opacity: 0;
+    transition: all 0.5s 0.2s;
   }
 
   &__left {
@@ -650,6 +652,7 @@
       text-decoration: none;
       display: inline-block;
       line-height: 1;
+      transition: all 0.2s;
     }
 
     &:hover {
